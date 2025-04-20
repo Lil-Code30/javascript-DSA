@@ -2,7 +2,8 @@
 Bienvenue dans mon dépôt **Weekend Coding – JavaScript & LeetCode** !  
 Chaque **weekend**, je travaille sur les **structures de données et algorithmes en JavaScript**, à partir d’un cours Udemy et je m'entraîne avec des exercices **LeetCode**.
 
-👽LeetCode Profile : [Lil-Code30](https://leetcode.com/u/lil_code30/)
+- 👽LeetCode Profile : [Lil-Code30](https://leetcode.com/u/lil_code30/)
+- 📺Playlist des video : [ici](https://youtube.com/playlist?list=PLCfWsbfoICpsnaur-2OTosnCFBxZ5rX7u) 
 
 ## 🎯 Objectifs
 
