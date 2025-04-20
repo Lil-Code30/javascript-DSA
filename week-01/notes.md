@@ -10,6 +10,7 @@ Du [19/04/2025] au [20/04/2025]
 
 - Big O notation
 - Classes & Pointers
+- Linked Lists constructor
 
 ---
 
@@ -81,11 +82,23 @@ Du [19/04/2025] au [20/04/2025]
   console.log(arr); // [ 1, 2, 3, 4, 5, 6 ]
   ```
 
+- **Linked Lists**
+
+  - Linked list don't haves indexes.
+  - arrays are in a contiguous places in memory while linked linked list can be all over the memory
+  - The varaible a the beginning of the linked list is called the head.
+  - The variable at the end of the linked list is called the tail.
+  - Each items in the list points to the next item in the list.
+  - The last item point to null.
+  - The head points to the first item in the list.
+  - The Tail points to the last item in the list.
+
 ---
 
 ## 📚 ressouces
 
 - [Big O Cheatsheet](https://www.bigocheatsheet.com/)
+- [Linked List](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 
 ## 🗒️ Notes
 
@@ -106,3 +119,16 @@ Du [19/04/2025] au [20/04/2025]
 - **O(n2): Polynomial Time**
   - Nested loops for each power of n.
   - Example: Bubble sort (O(n2)).
+
+### Linked List and Arrays Big O notation:
+
+| operation       | linked List | Arrays |
+| --------------- | ----------- | ------ |
+| push            | O(1)        | O(1)   |
+| pop             | O(n)        | O(1)   |
+| shift           | O(1)        | O(n)   |
+| unshift         | O(1)        | O(n)   |
+| insert          | O(n)        | O(n)   |
+| delete          | O(n)        | O(n)   |
+| Lookup by index | O(n)        | O(1)   |
+| lookup by value | O(n)        | O(n)   |
