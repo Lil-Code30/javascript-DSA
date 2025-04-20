@@ -11,6 +11,7 @@ Du [19/04/2025] au [20/04/2025]
 - Big O notation
 - Classes & Pointers
 - Linked Lists constructor
+- Linked List Push
 
 ---
 
