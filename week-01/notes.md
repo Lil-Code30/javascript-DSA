@@ -93,6 +93,18 @@ Du [19/04/2025] au [20/04/2025]
   - The last item point to null.
   - The head points to the first item in the list.
   - The Tail points to the last item in the list.
+  - **Brainstorming how linked list are created**
+    - We need to create a new node.
+      - **New Node Creation**
+        - A node has a value and a pointer to the next node.
+        - The pointer to the next node is set to null.
+        - Meaning that when creating a new node, the pointer is set to null and the value is set to the value of the node.
+    -**Linked List contructor**
+        - We create a new node.
+        - we set the head to the new node.
+        - we set the tail to the head.
+        - we set the length to 1.    
+
 
 ---
 
