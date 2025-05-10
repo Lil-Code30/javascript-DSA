@@ -40,24 +40,22 @@ class LinkedList {
     let slow = this.head;
     let fast = this.head;
 
-    while (fast.next !== null && fast.next.next !== null) {
+    while (fast != null && fast.next !== null) {
       slow = slow.next;
       fast = fast.next.next;
     }
     return slow;
   }
 }
-let myLinkedList = new LinkedList(40);
-myLinkedList.push(15);
-myLinkedList.push(65);
-myLinkedList.push(36);
-myLinkedList.push(52);
-myLinkedList.push(76);
-myLinkedList.push(99);
-myLinkedList.push(100);
+let myLinkedList = new LinkedList(1);
+myLinkedList.push(2);
+myLinkedList.push(3);
+myLinkedList.push(4);
+myLinkedList.push(5);
+myLinkedList.push(6);
 
-// [40,15,65,36,52,76]
-// [36,52,76]
+// [1,2,3,4,5,6]
+// [4,5,6]
 let middleNode = myLinkedList.middleNode();
 console.log(middleNode);
 
