@@ -16,8 +16,8 @@ Du [17/05/2025] au [18/05/2025]
 ## 💡 Points clés
 
 - Continue **Find Kth Node From End** leetcode code from week 4 Du [10/05/2025] au [11/05/2025]
--
-- To delete the middle node of a linked list, you can use the two-pointer technique. This involves using two pointers, slow_ptr and fast_ptr, where the fast pointer moves two nodes at a time and the slow pointer moves one node at a time. When the fast pointer reaches the end of the list, the slow pointer will be positioned at the middle node. You then adjust the next pointer of the node before the middle node to skip over the middle node, effectively removing it from the list.
+- **Delete Middle Node of Linked List**
+  - To delete the middle node of a linked list, you can use the two-pointer technique. This involves using two pointers, slow_ptr and fast_ptr, where the fast pointer moves two nodes at a time and the slow pointer moves one node at a time. When the fast pointer reaches the end of the list, the slow pointer will be positioned at the middle node. You then adjust the next pointer of the node before the middle node to skip over the middle node, effectively removing it from the list.
 
 ## 📚 resources
 
