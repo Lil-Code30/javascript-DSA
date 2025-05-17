@@ -31,6 +31,22 @@ class LinkedList {
     let slow = this.head;
     let fast = this.head;
 
+    let size = 0;
+    let temp1 = this.head;
+
+    // finding the total number of elements in the linked list
+    while (temp1 !== null) {
+      size++;
+      temp1 = temp1.next;
+    }
+
+    // code to be run when k is equal to the length of the linked list
+    if (k === size) {
+      this.head = this.head.next;
+      this.length = 0;
+      return this;
+    }
+
     // move fast pointer k step ahead
     for (let i = 1; i <= k; i++) {
       // If the fast pointer reaches null before moving k steps, return null as k is out of range.
