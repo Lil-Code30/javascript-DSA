@@ -71,3 +71,10 @@ myLinkedList.push(40); // slow
 // hint : maintain two pointer with one with a delay of n
 
 console.log(myLinkedList.removeKthFromEnd(3));
+
+/*
+
+ All cases work but doesn't work when n is equal to the length of the linked list 
+ see the rest of the solution in week-05 -> removeKthFromEnd.js
+
+*/

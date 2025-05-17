@@ -10,6 +10,8 @@ Du [10/05/2025] au [11/05/2025]
 
 - Floyd’s Cycle Finding Algorithm
 - 003 LL Has Loop ( Interview Question)
+- 004 LL Find Kth Node From End : All cases work but doesn't work when n is equal to the length of the linked list
+- Leetcode : 19. Remove Nth Node From End of List
 
 ---
 
@@ -33,6 +35,9 @@ Du [10/05/2025] au [11/05/2025]
   - If the fast pointer reaches null before moving k steps, return null as k is out of range.
   - Move both slow and fast pointers one step at a time until the fast pointer reaches the end of the list.
   - When the fast pointer reaches the end, the slow pointer will be at the kth node from the end.
+
+- All cases work but doesn't work when n is equal to the length of the linked list
+  - see the rest of the solution in `week-05/removeKthFromEnd.js`
 
 ## 📚 resources
 
