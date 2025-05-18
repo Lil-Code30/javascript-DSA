@@ -11,6 +11,8 @@ Du [17/05/2025] au [18/05/2025]
 - 19. Remove Nth Node From End of List
 - 2095. Delete the Middle Node of a Linked List
 - Doubly Linked List Constructor
+- Doubly Linked List Pop method
+- Doubly Linked List Push method
 
 ---
 
