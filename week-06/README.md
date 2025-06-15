@@ -11,6 +11,7 @@ Du [14/06/2025] au [15/06/2025]
 - Recap of Doubly Linked List ( how to create a node and a DLL constructor)
 - DLL unshift
 - DLL shift
+- DLL insert
 
 ---
 
@@ -31,6 +32,19 @@ Du [14/06/2025] au [15/06/2025]
        - If there is only one node then both Head and Tail will be pointing to null
     3. When there is more than one element
        - If there is more than one element, the head will be pointing to head.next then head.prev will now point to null
+
+- **DLL Get** : Get a node at a particular index
+
+  - To get the node at a particular index, we have to loop through the DLL
+    - First initialize a temp variable to be equal to the head of the DLL ( temp = this.head) and also an index (i) variable to zero
+    - while temp.next is not equal to null (meaning that we have not yet reach the end of the DLL) we change the valu of temp to be equal to the next node (temp = tem.next) also increment the index
+    - Then we verify if the i is equal to the index we are looking (i = index)
+      - If i equal to the index, we return the value of temp
+      - Else, we continue looping through the DLL
+  - verification. If the index we are trying to get the value is equal to 0, we just return the head of the DLL since the head is at index 0
+  - **NB** : Note that we can also get the value by looping through the DLL starting at the end of the DLL
+
+-**DLL insert** -
 
 - **Real-world situations where a Doubly Linked List (DLL)**
 
