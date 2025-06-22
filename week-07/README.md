@@ -22,3 +22,4 @@ Du [21/06/2025] au [22/06/2025]
 - [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 - [Roman numerals](https://en.wikipedia.org/wiki/Roman_numerals#Description)
+- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) ⚠️ not done
